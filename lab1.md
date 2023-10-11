@@ -1,6 +1,6 @@
 **Lab Report 1**
 
-![Image](cd.PNG)
+![Profile](cd.PNG)
 <br />
 When I typed "cd" into the terminal with no arguments, nothing happened and there was no input. This is because we did not decalre which directory to change into. This is not a error on the terminal but rather a human error as I did not select a directory to change into. If we were to be already in, for example, the lecture1 directory, the command would change it back to the larger encompassing directory of lecture1.
 When I typed cd lecture1, there was no output but on the contrary the new terminal line directory indicated that I had changed into the Lecture1 folder (this is not an error). 
