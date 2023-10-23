@@ -61,8 +61,11 @@ Similar to the previous screenshot, the methods that are called within my code a
 **Part 2**
 
 Screenshot of ls to the paths to the private and public keys:
+<br>
 ![screen2](Screenshots/Lab3-3.png)
+
 Screenshot of Logging in without the use of a password:
+<br>
 ![screen2](Screenshots/Lab3-4.png)
 
 **Part 3**
