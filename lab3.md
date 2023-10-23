@@ -60,4 +60,10 @@ Similar to the previous screenshot, the methods that are called within my code a
 
 **Part 2**
 
-Screenshots of ls to the paths to the private and public keys:
+Screenshot of ls to the paths to the private and public keys:
+![screen2](Screenshots/Lab3-3.PNG)
+Screenshot of Logging in without the use of a password:
+![screen2](Screenshots/Lab3-4.PNG)
+
+**Part 3**
+Something that I learned from Labs 2 and 3 was how to run Java files on a local computer, as well as a remote computer through the use of public and private SSH keys, on a local server that can be accessed by others connected to the same internet. Although this took a lot of experimentation to fully understand the process, I eventually was able to swiftly understand that the javac command is used to compile the following java files and that java StringServer 4000 (or any other 4-digit length number) will run the server on a local host. 
