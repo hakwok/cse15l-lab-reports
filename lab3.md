@@ -51,11 +51,11 @@ class StringServer {
     }
 }
 ```
-![screen1](/Screenshots/Lab3-1.png)
+![screen1](/Screenshots/Lab3-2.png)
 The methods that are called within my code are the handleRequests method and the newLine method within the Handler class. the argument for the handleRequest would be the user-inputted url, in this case https://0-0-0-0-4000-lp2fvifffngpik1ghadvi73v7k.us.edusercontent.com/add-message?s=Hello, and the newLine method took in the list that we constructed within the Handler class. The changes include that one of the new Strings from the list were ouputted onto the page, in this case going from nothing to having 1. Hello, as well as the index of the count incrementing from 0 to 1. 
 
 
-![screen2](/Screenshots/Lab3-2.png)
+![screen2](/Screenshots/Lab3-1.png)
 Similar to the previous screenshot, the methods that are called within my code are the same as the previous: the handleRequests method and the newLine method within the Handler class. the argument for the handleRequest would be the user-inputted url, in this case https://0-0-0-0-4000-lp2fvifffngpik1ghadvi73v7k.us.edusercontent.com/add-message?s=How%20Are%20You, and the newLine method took in the list that we constructed within the Handler class. The changes include that one of the new Strings from the list were ouputted onto the page, in this case going from 1. Hello to 1.Hello and 2. How Are You, as well as the index of the count incrementing from 1 to 2. 
 
 **Part 2**
