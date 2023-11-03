@@ -51,6 +51,7 @@ Screenshot of ls to the paths to the private and public keys:
 
 Screenshot of Logging in without the use of a password:
 <br>
+![screen2](Screenshots/login1.png)
 ![screen2](Screenshots/Lab3-4.png)
 
 **Part 3**
