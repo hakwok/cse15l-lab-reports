@@ -6,37 +6,22 @@ import java.io.IOException;
 import java.net.URI;
 
 class Handler implements URLHandler {
-    String[] list = new String[100];
-    int count = 0;
+    private StringBuilder messageList = new StringBuilder(); //Decided to not use a List and switch to a StringBuilder object
 
+    private int count = 0;
     public String handleRequest(URI url) {
-        if (url.getPath().equals("/")) {
-            return newLine(this.list);
-        } else {
-            if (url.getPath().contains("/add-message")) {
-                String[] parameters = url.getQuery().split("=");
-                if (parameters[0].equals("s")) {
-                    list[this.count] = parameters[1].replace("+", " ");
-                    this.count++;
-                    return newLine(this.list);
-                }
+        if (url.getPath().equals("/add-messages")) { 
+            String query = url.getQuery();
+            if (query != null && query.startsWith("s=")) {
+                String message = query.substring(2);
+                count++;
+                messageList.append(count).append(". ").append(message).append("\n");
+                return messageList.toString();
             }
-            return "404 Not Found!";
         }
-    }
-    public String newLine(String[] stringList){
-        String newlist= "";
-        for(int i = 0; i < stringList.length; i++){
-            if(stringList[i] != null){
-                newlist += "\n" + (i++) + ". " + stringList[i];
-            } 
-        }
-        return newlist;
+    return "404 Not Found!";
     }
 }
-
-
-
 
 class StringServer {
     public static void main(String[] args) throws IOException {
