@@ -1,5 +1,15 @@
 **Lab Report 2**
 
 **Part 1**
+A failure-inducing input
+```
+```
+An input that doesn't induce a failure
 
-**Part 1**
+Symptom
+
+The Bug
+
+To address the issue...
+
+**Part 2**
