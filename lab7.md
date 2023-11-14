@@ -1,16 +1,22 @@
 **Lab Report 4**
 
 4. Log into ieng6
-ssh cse15lfa23ig@ieng6.ucsd.edu
+   ![screen1](/Screenshots/lab7-1.png)
+   ssh cse15lfa23ig@ieng6.ucsd.edu
 5. Clone your fork of the repository from your GitHub account
-git clone <enter>
+   ![screen2](/Screenshots/lab7-2.png)
+   git clone <enter>
 6. Run the tests, demonstrating that they fail
-bash test.sh<enter>
+   ![screen3](/Screenshots/lab7-3.png)
+   bash test.sh<enter>
 7. Edit the code file to fix the failing test
-vim Li<tab>.java<enter>, 43j, 11k, x, i, 2, <esc>, :wq<enter>
+    ![screen4](/Screenshots/lab7-4.png)
+    vim Li<tab>.java<enter>, 43j, 11k, x, i, 2, <esc>, :wq<enter>
 8. Run the tests, demonstrating that they now succeed
-bash test.sh<enter>
+    ![screen5](/Screenshots/lab7-5.png)
+    bash test.sh<enter>
 9. Commit and push the resulting change to your GitHub account (you can pick any commit message!)
-git add Li<tab>.java<enter>
-git commit Li<tab>.java -m "fixed bug"<enter>
-git push<enter>
+    ![screen6](/Screenshots/lab7-6.png)
+   git add Li<tab>.java<enter>
+   git commit Li<tab>.java -m "fixed bug"<enter>
+   git push<enter>
