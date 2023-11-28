@@ -11,7 +11,7 @@
    bash test.sh```<enter>```<br />
 7. Edit the code file to fix the failing test<br />
     ![screen4](/Screenshots/labt7-4.png)<br />
-    vim Li```<tab>```.java```<enter>```, ```43j```, ```11k```, ```x```, ```i```, ```2```, ```<esc>```, ```:wq``````<enter>```. Here, I decided not to type out the entirety of ListExamples and used tab to fill up the rest of the file name. After running the command I pressed '43j' to move down 43 lines, then 11k to move right 11 indices, x to delete the 2, i and 2 to insert 2, and finally ```<esc>``` to exit out of the editing mode and :wq to save and quit out of vim.<br />
+    vim Li```<tab>```.java```<enter>```, ```43j```, ```11k```, ```x```, ```i```, ```2```, ```<esc>```, ```:wq``````<enter>```. Here, I decided not to type out the entirety of ListExamples and used tab to fill up the rest of the file name. After running the command I pressed ```43j``` to move down 43 lines, then ```11k``` to move right 11 indices, ```x``` to delete the 2, ```i``` and ```2``` to insert 2, and finally ```<esc>``` to exit out of the editing mode and ```:wq``` to save and quit out of vim.<br />
 8. Run the tests, demonstrating that they now succeed<br />
     ![screen5](/Screenshots/labt7-5.png)<br />
     bash test.sh```<enter>```<br />
