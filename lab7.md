@@ -18,5 +18,5 @@
 9. Commit and push the resulting change to your GitHub account (you can pick any commit message!)<br />
     ![screen6](/Screenshots/labt7-6.png)<br />
    Keys Pressed:```git add Li<tab>.java<enter>```. Used tab for the same reason as in step 7.<br />
-   ```git commit Li<tab>.java -m "fixed bug"<enter>```. Used tab for the same reason as in step 7, and decided to use the -m shortcut to include the message in the line to save time. <br />
+   ```git commit -m "fixed bug"<enter>```. Used tab for the same reason as in step 7, and decided to use the -m shortcut to include the message in the line to save time. <br />
    Keys Pressed:```git push<enter>```<br />
