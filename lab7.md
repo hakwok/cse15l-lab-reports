@@ -8,7 +8,7 @@
    Keys Pressed:```git clone git@github.com:hakwok/lab7.git<enter>```<br />
 6. Run the tests, demonstrating that they fail<br />
    ![screen3](/Screenshots/lab7-3.png)<br />
-   Keys Pressed:```bash test.sh<enter>```<br />
+   Keys Pressed:```cd l<tab><enter>```I used tab to autocomplete to lab7. ```bash test.sh<enter>```<br />
 7. Edit the code file to fix the failing test<br />
     ![screen4](/Screenshots/labt7-4.png)<br />
     Keys Pressed:```vim Li<tab>.java<enter>, 43j, 11k, x, i, 2, <esc>, :wq<enter>.``` Here, I decided not to type out the entirety of ListExamples and used tab to fill up the rest of the file name. After running the command I pressed ```43j``` to move down 43 lines, then ```11k``` to move right 11 indices, ```x``` to delete the 2, ```i``` and ```2``` to insert 2, and finally ```<esc>``` to exit out of the editing mode and ```:wq``` to save and quit out of vim.<br />
