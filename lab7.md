@@ -2,7 +2,7 @@
 
 4. Log into ieng6<br />
    ![screen1](/Screenshots/lab7-1.png)<br />
-   ```ssh cse15lfa23ig@ieng6.ucsd.edu``````<enter>```<br />
+   ```ssh cse15lfa23ig@ieng6.ucsd.edu<enter>```<br />
 5. Clone your fork of the repository from your GitHub account<br />
    ![screen2](/Screenshots/lab7-2.png)<br />
    git clone git@github.com:hakwok/lab7.git```<enter>```<br />
