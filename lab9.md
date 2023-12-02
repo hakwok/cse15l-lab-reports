@@ -6,8 +6,6 @@
   There was one failure when running the bash script and I assume that it came from running testMerge2, which indicates that the merge function did not work for a certain test case. The failure states that it timed out at line 44 when running ListExamples.merge() which indicates that the bug might be from that line. Is my line of thinking correct?
 2. Yes, you are on the right track, the test that is not producing the expected output comes from line 19 in ListExamplesTests.java which indicates that you were correct in that testing the Merge function is where we can expect the error. Try the following commands to debug the code: ```<javac -g ListExamples.java>``` to compile the java file, ```<jdb -classpath .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests>``` to run jdb on your test file, ```stop at ListExamplesTests:19``` to create a breakpoint at line 19 in which we identified to be producing the symptom, and finally ```run``` to run jdb.
 3. ![screen1](/Screenshots/lab7-1.png)<br />
-  
-4. 
 
 **Part 2**
 
