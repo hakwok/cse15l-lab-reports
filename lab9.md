@@ -9,7 +9,7 @@
    ![screen1](/Screenshots/lab5-3.png)<br />
 **Student**: Thank you for your help. After using vim to check out the file, I discovered that the bug was located in the last while loop which incremented the index2 by 2 instead of 1, which skipped over 1 index in the second array, causing it to only add 2 out of the 3 elements. I have fixed it and changed it to 1, running ```bash test.sh``` to confirm the tests work properly.
 
-4. Assume that the student was only able to access the terminal and no code editor environment. </br>
+4. Assume that the student was only able to access the terminal and no code editor environment.
 ![screen1](/Screenshots/wrong.png)<br />
 ![screen1](/Screenshots/lab5-4.png)<br />
 ![screen1](/Screenshots/lab5-5.png)<br />
